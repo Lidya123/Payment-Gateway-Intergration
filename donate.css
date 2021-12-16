@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.mp64qHbpj14Xsjf4yRFpWAHaEK&pid=Api&P=0&w=284&h=160);
+	background-size: cover;
+	height: 100vh;
+}
+.navbar{
+	position: fixed;
+	height: 100px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(6, 56, 27, 0.4);
+}
+.navbar .logo{
+	width: 140px;
+	height: auto;
+	padding: 20px 100px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family:"Georgia";
+	color: yellow;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: rgb(9, 51, 9);
+	border: 2px solid yellow;
+}
+.wrapper .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h1{
+	color: #0c0c0c;
+	font-size: 27px;
+	font-family:"sans-serif";
+	text-transform: uppercase;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
+.center .buttons{
+	margin: 35px 280px;
+}
+.buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #ffb3b3;
+	background: rgb(8, 43, 7);
+	outline: none;
+	cursor: pointer;
+	border: 1px solid yellow;
+	border-radius: 25px;
+	transition: .4s;
+}
+.buttons .btn2{
+	margin-left: 25px;
+}
+.buttons button:hover{
+	background: rgb(21, 23, 104);;
+}
+.centerImg{
+    box-shadow: 10px 5px 5px rgb(15, 14, 14);
+    display: flex;
+}
+.marquee{
+    color: #f2f626;
+    box-shadow: 5px 5px 5px rgb(15, 14, 14);
+    font-size: 30px;
+}
